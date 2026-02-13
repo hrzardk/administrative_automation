@@ -1,2 +1,2 @@
-# administrative_automation
+# Document Automation
 This project is a script-based automation system designed to instantly generate dozens or even hundreds of documents from predefined templates. Developed using AI as part of an academic-industry collaboration between a university lecturer and Huawei, the system aims to improve administrative efficiency and technical documentation workflows. By utilizing programming logic, the system maps variable data into specific document formats (such as .docx or .pdf) with high accuracy, minimizing the risk of human error and significantly accelerating large-scale document production.
