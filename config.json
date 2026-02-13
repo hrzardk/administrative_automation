@@ -1,0 +1,127 @@
+{
+    "scopes": {
+        "Cisco_Swap": {
+            "name": "Cisco Swap",
+            "template_file": "D:\\!Huawei\\Req XLWO\\Code\\Cisco Swap\\Ericson Swap Template.docx",
+            "excel_sheet": "Sheet1",
+            "table_keyword": "No",
+            "title_col": "Title",
+            "ring_col": "Ring*",
+            "columns_mapping": [
+                "Tower ID*",
+                "Hostname*",
+                "Ring*",
+                "IP*",
+                "NE Type*"
+            ]
+        },
+        "Modernize": {
+            "name": "Modernize",
+            "template_file": "D:\\!Huawei\\Req XLWO\\Code\\Modernize\\Modernize Power On Template.docx",
+            "excel_sheet": "Sheet1",
+            "table_keyword": "Tower Index A",
+            "title_col": "Title",
+            "ring_col": "Ring",
+            "columns_mapping": [
+                "Ring CSR/MBH",
+                "Tower Index A",
+                "Device Name",
+                "Device IP"
+            ]
+        },
+        "PAG_Modernize": {
+            "name": "PAG Modernize",
+            "template_file": "D:\\!Huawei\\Req XLWO\\Code\\PAG Modernize\\PAG Modernize.docx",
+            "excel_sheet": "Sheet1",
+            "table_keyword": "Tower Index A",
+            "title_col": "Title",
+            "ring_col": "Ring CSR/MBH",
+            "columns_mapping": [
+                "Ring CSR/MBH",
+                "Tower Index A",
+                "Device Name",
+                "Device IP"
+            ]
+        },
+        "Expansion": {
+            "name": "Expansion",
+            "template_file": "D:\\!Huawei\\Req XLWO\\Code\\Expansion\\Template Expansion.docx",
+            "excel_sheet": "Sheet1",
+            "table_keyword": "Tower ID",
+            "title_col": "Title",
+            "ring_col": "Ring",
+            "region_col": "Region",
+            "columns_mapping": [
+                "Tower ID",
+                "PAG Hostname",
+                "C/AG Tower ID",
+                "C/AG Hostname",
+                "Ring",
+                "Port PAG",
+                "Port AG"
+            ]
+        },
+        "New_Integration_PAG_AG": {
+            "name": "New Integration PAG to AG",
+            "template_file": "D:\\!Huawei\\Req XLWO\\Code\\New Integration\\HTI IPRAN New Integration PAG to AG Template.docx",
+            "excel_sheet": "Sheet1",
+            "table_keyword": "NE Type",
+            "title_col": "Title",
+            "ring_col": "Ring",
+            "has_topology_image": true,
+            "columns_mapping": [
+                "NE Type*",
+                "Site ID*",
+                "NE ID/Name*",
+                "IP*",
+                "Start Date*",
+                "Start Time*",
+                "End Date*"
+            ]
+        },
+        "Change_SFP": {
+            "name": "Change SFP",
+            "template_file": "D:\\!Huawei\\Req XLWO\\Code\\Change SFP\\Template ACL Rectification.docx",
+            "excel_sheet": "Sheet1",
+            "table_keyword": "No.",
+            "title_col": "Title",
+            "ring_col": "Ring",
+            "columns_mapping": [
+                "NE Type*",
+                "NE ID/Name*",
+                "QTY*",
+                "Start Date*",
+                "Start Time*",
+                "End Date*",
+                "End Time*"
+            ]
+        },
+        "Upgrade_License": {
+            "name": "Upgrade License",
+            "template_file": "D:\\!Huawei\\Req XLWO\\Code\\Upgrade License\\Template Upgrade License.docx",
+            "excel_sheet": "Sheet1",
+            "table_keyword": "No",
+            "title_col": "Title",
+            "ring_col": "Ring",
+            "columns_mapping": [
+                "NE Type*",
+                "NE ID/Name*",
+                "QTY*",
+                "Start Date*",
+                "Start Time*",
+                "End Date*",
+                "End Time*",
+                "Current Version*",
+                "Target Version*"
+            ]
+        }
+    },
+    "settings": {
+        "output_folder": "output",
+        "upload_folder": "uploads",
+        "templates_folder": "templates_store",
+        "max_file_size_mb": 50,
+        "default_font": "Arial",
+        "default_font_size": 9
+    }
+}

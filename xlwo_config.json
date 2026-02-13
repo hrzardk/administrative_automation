@@ -1,0 +1,25 @@
+{
+  "gsheet_url": "https://docs.google.com/spreadsheets/d/1Nb7OYTwS7fJp6wo3GThe888WvDUoex-aAmAVtaQs5ow/edit?usp=sharing",
+  "gsheet_id": "1Nb7OYTwS7fJp6wo3GThe888WvDUoex-aAmAVtaQs5ow",
+  "database_file": "xlwo_data\\gsheet_cache.xlsx",
+  "original_filename": "Google Sheet (1Nb7OYTw...)",
+  "uploaded_at": "2026-01-14T14:27:15.007712",
+  "record_count": 1487,
+  "columns": [
+    "SITE ID",
+    "HOSTNAME",
+    "RING",
+    "REGION",
+    "SCOPE",
+    "TITLE",
+    "DOMAIN",
+    "XLWO Number",
+    "Implementation status",
+    "Release Date",
+    "Exp Day",
+    "Exp Date",
+    "Days Remaining",
+    "Remark"
+  ],
+  "mode": "gsheet"
+}
